@@ -5,7 +5,7 @@ from google import genai
 
 
 
-client = genai.Client(api_key="AIzaSyDtkxPX0fwTXinqxFjQX8s6eKYc8yuLQss")
+client = genai.Client(api_key="Enter you google api here")
 
 @api_view(["POST"])
 def generate(request):
